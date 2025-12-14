@@ -26,15 +26,40 @@ class home_page : AppCompatActivity() {
             startActivity(intent)
         }
 
-        //redirects to food desc page when clicking any recipe
-        val recipeIds = listOf(R.id.recipe_1, R.id.recipe_2, R.id.recipe_3, R.id.recipe_4, R.id.recipe_5, R.id.recipe_6, R.id.recipe_7)
+        val recipe1 = findViewById<LinearLayout>(R.id.recipe_1)
+        recipe1.setOnClickListener {
+            val intent = Intent(this, food_desc_page_pb::class.java)
+            startActivity(intent)
+        }
 
-        for (id in recipeIds) {
-            val recipeCard = findViewById<LinearLayout>(id)
-            recipeCard.setOnClickListener {
-                val intent = Intent(this, food_desc_page::class.java)
-                startActivity(intent)
-            }
+        val recipe2 = findViewById<LinearLayout>(R.id.recipe_2)
+        recipe2.setOnClickListener {
+            val intent = Intent(this, food_desc_page::class.java)
+            startActivity(intent)
+        }
+
+        val recipe3 = findViewById<LinearLayout>(R.id.recipe_3)
+        recipe3.setOnClickListener {
+            val intent = Intent(this, food_desc_page_lf::class.java)
+            startActivity(intent)
+        }
+
+        val recipe5 = findViewById<LinearLayout>(R.id.recipe_5)
+        recipe5.setOnClickListener {
+            val intent = Intent(this, food_desc_page_pb::class.java)
+            startActivity(intent)
+        }
+
+        val recipe6 = findViewById<LinearLayout>(R.id.recipe_6)
+        recipe6.setOnClickListener {
+            val intent = Intent(this, food_desc_page::class.java)
+            startActivity(intent)
+        }
+
+        val recipe7 = findViewById<LinearLayout>(R.id.recipe_7)
+        recipe7.setOnClickListener {
+            val intent = Intent(this, food_desc_page_lf::class.java)
+            startActivity(intent)
         }
 
         val createNav = findViewById<LinearLayout>(R.id.nav_create)

@@ -151,13 +151,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="78dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/puto_bumbong" />
+                    android:src="@drawable/buko_pandan" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="Puto Bumbong"
+                    android:text="Buko Pandan"
                     android:textSize="15sp"
                     android:textStyle="bold" />
 
@@ -205,13 +205,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="78dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/puto_bumbong" />
+                    android:src="@drawable/leche_flan" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="Puto Bumbong"
+                    android:text="Leche Flan"
                     android:textSize="15sp"
                     android:textStyle="bold" />
 
@@ -246,59 +246,7 @@
                 </LinearLayout>
             </LinearLayout>
 
-            <LinearLayout
-                android:id="@+id/recipe_4"
-                android:layout_width="140dp"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="10dp"
-                android:elevation="3dp"
-                android:orientation="vertical"
-                android:padding="13dp">
 
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="78dp"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/puto_bumbong" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="Puto Bumbong"
-                    android:textSize="15sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="3dp"
-                    android:ellipsize="end"
-                    android:maxLines="1"
-                    android:text="Lorem ipsum..."
-                    android:textSize="12sp" />
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="3dp"
-                    android:gravity="center_vertical"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:layout_width="14dp"
-                        android:layout_height="14dp"
-                        android:src="@drawable/star" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="3dp"
-                        android:text="(5.0)"
-                        android:textColor="#e5b700"
-                        android:textSize="12sp" />
-                </LinearLayout>
-            </LinearLayout>
 
         </LinearLayout>
     </HorizontalScrollView>

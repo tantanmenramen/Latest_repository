@@ -21,6 +21,12 @@
             android:name=".food_desc_page"
             android:exported="false" />
         <activity
+            android:name=".food_desc_page_lf"
+            android:exported="false" />
+        <activity
+            android:name=".food_desc_page_pb"
+            android:exported="false" />
+        <activity
             android:name=".home_page"
             android:exported="false" />
         <activity
