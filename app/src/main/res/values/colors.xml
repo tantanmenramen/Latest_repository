@@ -8,4 +8,5 @@
     <color name="gray">#606060</color>
     <color name="navbar_yellow">#ffde59</color>
     <color name="navbar_gray">#b8b8b8</color>
+    <color name="template_color">#123456</color>
 </resources>
